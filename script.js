@@ -37,6 +37,7 @@ function renderLibrary() {
         author.textContent = book.author;
         isbn.textContent = book.isbn;
         statusSpan.textContent = book.status;
+        statusSpan.classList.add("status-text");
         status.appendChild(statusSpan);
         toggleButton.textContent = "Remove";
 

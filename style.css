@@ -6,11 +6,16 @@ body {
     font-family: sans-serif;
 }
 
+.title {
+    text-align: center;
+}
+
 table {
     border-collapse: collapse;
     border: 2px solid rgb(200 200 200);
     letter-spacing: 1px;
     font-size: 0.8rem;
+    margin: 0 auto;
 }
 
 td, th {
@@ -28,4 +33,23 @@ tr:nth-child(even) td {
 
 tr:nth-child(odd) td {
   background-color: rgb(220 220 220);
+}
+
+legend {
+    padding-bottom: 0.5em;
+    font-weight: bold;
+}
+
+form {
+    width: fit-content;
+    margin: 0 auto;
+    padding-top: 1em;
+}
+
+fieldset {
+    border: none;
+}
+
+.status-text {
+    margin-right: 8px;
 }
